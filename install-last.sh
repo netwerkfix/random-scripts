@@ -15,5 +15,5 @@ sleep 1
 chmod 755 run-last-steps.service
 sleep 1
 cd /root
-sleep 1
+sleep 2
 systemctl enable --now run-last-steps.service
