@@ -4,13 +4,13 @@ sudo mkdir -p /etc/sysprep/last-steps
 sleep 1
 cd /etc/sysprep/last-steps/
 sleep 1
-sudo wget https://github.com/netwerkfix/random-scripts/blob/main/run-last-steps.sh
+sudo wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/run-last-steps.sh?token=GHSAT0AAAAAAB4X3P6ZMHLLARBVLZLCEXOSY5I4DQA
 sleep 1
 chmod 775 run-last-steps.sh
 sleep 1
 cd /etc/systemd/system/
 sleep 2
-wget https://github.com/netwerkfix/random-scripts/blob/main/run-last-steps.service
+wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/run-last-steps.service?token=GHSAT0AAAAAAB4X3P6ZBXIF55STREBDASSWY5I4DGA
 sleep 1
 chmod 755 run-steps.service
 sleep 1
