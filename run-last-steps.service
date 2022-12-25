@@ -1,0 +1,11 @@
+[Unit]
+Description=Netwerkfix-sysprep
+
+[Service]
+#ExecStartPre=
+ExecStart=/etc/sysprep/run-last-steps.sh
+SyslogIdentifier=Diskutilization
+#ExecStop=
+
+[Install]
+WantedBy=multi-user.target
