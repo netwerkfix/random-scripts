@@ -1,4 +1,4 @@
-sudo apt update -y
+sudo apt update
 sleep 1
 sudo apt upgrade -y
 sleep 1
