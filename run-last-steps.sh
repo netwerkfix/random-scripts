@@ -1,6 +1,4 @@
-sudo apt update
-sleep 1
-sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 sleep 1
 sudo apt install -y open-vm-tools
 sleep 1
