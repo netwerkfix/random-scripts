@@ -1,4 +1,3 @@
-sudo mkdir -p /etc/sysprep/last-steps
 sudo apt update -y
 sleep 1
 sudo apt upgrade -y
