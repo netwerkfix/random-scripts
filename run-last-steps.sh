@@ -22,4 +22,5 @@ sleep 2
 dhclient -r
 sleep 3
 systemctl disable --now run-last-steps.service
+sleep 2
 sudo rm -f /etc/sysprep/last-steps
