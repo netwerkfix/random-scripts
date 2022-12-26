@@ -12,7 +12,7 @@ if [ `id -u` -ne 0 ]; then
 fi
 
 set -v
-sleep 240
+sleep 40
 wget https://raw.githubusercontent.com/netwerkfix/ubuntu22.04-Sysprep/main/installer.sh
 sleep 1
 chmod 755 installer.sh
