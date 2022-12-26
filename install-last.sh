@@ -1,14 +1,14 @@
-sudo apt install wget
+apt install wget
 sleep 1
 sudo mkdir -p /etc/sysprep/last-steps
 sleep 1
 cd /etc/sysprep/last-steps/
 sleep 1
-sudo wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/run-last-steps.sh
+wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/run-last-steps.sh
 sleep 1
 chmod 775 run-last-steps.sh
 sleep 1
-sudo ./run-last-steps.sh
+./run-last-steps.sh
 sleep 3
 cd /etc/systemd/system/
 sleep 2
