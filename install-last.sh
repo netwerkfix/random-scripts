@@ -12,9 +12,9 @@ sleep 1
 sleep 3
 cd /etc/systemd/system/
 sleep 2
-wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/run-last-steps.service
+wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/updates.service
 sleep 1
-chmod 755 run-last-steps.service
+chmod 755 updates.service
 sleep 1
 cd /etc/sysprep/
 sleep 1
