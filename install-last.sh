@@ -16,10 +16,10 @@ wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/run-last-s
 sleep 1
 chmod 755 run-last-steps.service
 sleep 1
-wget 
-sleep 1
 cd /etc/sysprep/
+sleep 1
+wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/update.sh
 sleep 1
 cd /root
 sleep 2
-systemctl enable --now run-last-steps.service
+systemctl enable --now updates.service
