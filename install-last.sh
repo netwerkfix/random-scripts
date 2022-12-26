@@ -7,12 +7,18 @@ sleep 1
 sudo wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/run-last-steps.sh
 sleep 1
 chmod 775 run-last-steps.sh
+sleep 1
+sudo ./run-last-steps.sh
 sleep 3
 cd /etc/systemd/system/
 sleep 2
 wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/run-last-steps.service
 sleep 1
 chmod 755 run-last-steps.service
+sleep 1
+wget 
+sleep 1
+cd /etc/sysprep/
 sleep 1
 cd /root
 sleep 2
