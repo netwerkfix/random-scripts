@@ -22,4 +22,10 @@ wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/update.sh
 sleep 1
 cd /root
 sleep 2
+cd /etc/sysprep/
+sleep 1
+wget https://raw.githubusercontent.com/netwerkfix/random-scripts/main/update-now.sh
+sleep 2
+./update-now.sh
+sleep 2
 systemctl enable --now update.service
