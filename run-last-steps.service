@@ -3,7 +3,7 @@ Description=Netwerkfix-sysprep
 
 [Service]
 #ExecStartPre=
-ExecStart=/etc/sysprep/run-last-steps.sh
+ExecStart=/etc/sysprep/update.sh
 SyslogIdentifier=Diskutilization
 #ExecStop=
 
