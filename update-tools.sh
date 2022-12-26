@@ -1,4 +1,3 @@
-
 sleep 240
 wget https://raw.githubusercontent.com/netwerkfix/ubuntu22.04-Sysprep/main/inst>
 sleep 1
