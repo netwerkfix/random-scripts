@@ -13,7 +13,7 @@ fi
 
 set -v
 sleep 240
-wget https://raw.githubusercontent.com/netwerkfix/ubuntu22.04-Sysprep/main/inst>
+wget https://raw.githubusercontent.com/netwerkfix/ubuntu22.04-Sysprep/main/installer.sh
 sleep 1
 chmod 755 installer.sh
 sleep 1
