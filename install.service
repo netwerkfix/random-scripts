@@ -3,7 +3,7 @@ Description=Netwerkfix-sysprep
 
 [Service]
 #ExecStartPre=
-ExecStart=/etc/sysprep/install-tools.sh
+ExecStart=/etc/sysprep/update-tools.sh
 SyslogIdentifier=Diskutilization
 #ExecStop=
 
