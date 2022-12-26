@@ -1,4 +1,4 @@
-#update's
+#update's every month
 sleep 2628000
 apt update && apt upgrade -y
 sleep 3
