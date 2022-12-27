@@ -8,3 +8,5 @@ sleep 5
 rm /etc/systemd/system/passwd.service
 sleep 4
 apt update && apt upgrade -y
+sleep 4
+sudo dhclient -r
