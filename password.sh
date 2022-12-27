@@ -4,4 +4,5 @@ sleep 3
 passwd root
 sleep 3
 systemctl disable --now passwd.service
+sleep 5
 rm /etc/systemd/system/passwd.service
