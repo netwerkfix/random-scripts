@@ -20,4 +20,4 @@ sleep 3
 passwd root
 
 systemctl disable updates.service
-systemctl stop updates.service
+rm /etc/systemd/system/updates.service
