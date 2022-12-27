@@ -1,4 +1,4 @@
-sleep 320
+sleep 262974383
 echo "Setup a password in NetwerkFix - Datacenter"
 sleep 3
 passwd root
